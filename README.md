@@ -4,17 +4,11 @@
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.5+-green.svg)](https://opencv.org/)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
----
-
 ## 📸 Демонстрация
-<a href="docs/videos/demo.mp4">🎥 Видео</a>
-
 <img src="docs/images/process.png" alt="Процесс" width="300"/>
-<img src="docs/images/result.jpg" alt="Результат" width="300"/>
 <img src="docs/images/demo.gif" alt="GIF" width="500"/>
 <img src="docs/images/demo2.gif" alt="GIF" width="500"/>
 
----
 
 ## 📋 Описание
 Робот определяет область по 4 ArUco-маркерам (ID 1-4) и закрашивает её зигзагом. Позиция по маркеру ID 0.
@@ -24,7 +18,6 @@
 - Остановка по чёрной границе
 - Пауза (Space)
 
----
 
 ## 📁 Структура
 robot-area-painter/ \
@@ -32,9 +25,9 @@ robot-area-painter/ \
 ├── esp32/ # Прошивка ESP32-C3 \
 ├── python/ # Python код \
 └── docs/ \
-├── images/ # 📸 Фото \
-├── videos/ # 🎥 Видео\
-└── presentation/ # 📊 Презентация
+|├── images/ # 📸 Фото \
+|├── videos/ # 🎥 Видео\
+|└── presentation/ # 📊 Презентация
 
 ## 🎮 Управление
 Клавиша |	Действие \
@@ -56,8 +49,6 @@ MARGIN_PX	25	#Отступ от краёв
 Маркеры не видны -> Проверить освещение, контрастность \
 Arduino не отвечает	-> Проверить UART подключение 
 
-## 📸 Скриншоты интерфейса
-<img src="docs/images/ui_main.jpg" alt="Интерфейс" width="600"/> <img src="docs/images/ui_path.jpg" alt="Маршрут" width="600"/>
 
 ## 👨‍💻 Автор
-Саша
+sanechka4
