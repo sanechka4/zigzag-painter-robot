@@ -41,10 +41,23 @@ robot-area-painter/
 Space |	Пауза
 Esc| 	Остановка
 
-## 📸 Интерфейс
-ROBOT_ADDRESS = ("192.168.4.1", 8888)  # IP ESP32
-LINEAR_SPEED_MM_S = 250                # Скорость
-STEP_PX = 60                           # Шаг линий
+## 🔧 Параметры
+Параметр	Значение	Описание
+LINEAR_SPEED_MM_S	250	Скорость движения
+ANGULAR_SPEED_MRAD_S	3500	Скорость поворота
+TARGET_TOLERANCE_PX	55	Допуск цели
+STEP_PX	60	Шаг линий
+MARGIN_PX	25	Отступ от краёв
+
+## 🐛 Устранение проблем
+Проблема	Решение
+Камера не работает	Изменить CAMERA_INDEX = 1
+Робот не подключается	Проверить IP: ROBOT_ADDRESS = ("192.168.4.1", 8888)
+Маркеры не видны	Проверить освещение, контрастность
+Arduino не отвечает	Проверить UART подключение
+
+## 📸 Скриншоты интерфейса
+<img src="docs/images/ui_main.jpg" alt="Интерфейс" width="600"/> <img src="docs/images/ui_path.jpg" alt="Маршрут" width="600"/>
 
 ## 👨‍💻 Автор
 [Ваше имя] - [email]
