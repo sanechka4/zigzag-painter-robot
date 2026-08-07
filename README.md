@@ -27,34 +27,34 @@
 ---
 
 ## 📁 Структура
-robot-area-painter/
-├── arduino/ # Прошивка Arduino Uno
-├── esp32/ # Прошивка ESP32-C3
-├── python/ # Python код
-└── docs/
-├── images/ # 📸 Фото
-├── videos/ # 🎥 Видео
+robot-area-painter/ \
+├── arduino/ # Прошивка Arduino Uno \
+├── esp32/ # Прошивка ESP32-C3 \
+├── python/ # Python код \
+└── docs/ \
+├── images/ # 📸 Фото \
+├── videos/ # 🎥 Видео\
 └── presentation/ # 📊 Презентация
 
 ## 🎮 Управление
-Клавиша |	Действие
-Space |	Пауза
-Esc| 	Остановка
+Клавиша |	Действие \
+Space --	Пауза \
+Esc -- 	Остановка \
 
 ## 🔧 Параметры
 Параметр	Значение	Описание
-LINEAR_SPEED_MM_S	250	Скорость движения
-ANGULAR_SPEED_MRAD_S	3500	Скорость поворота
-TARGET_TOLERANCE_PX	55	Допуск цели
-STEP_PX	60	Шаг линий
-MARGIN_PX	25	Отступ от краёв
+LINEAR_SPEED_MM_S	250	#Скорость движения \
+ANGULAR_SPEED_MRAD_S	3500	#Скорость поворота \
+TARGET_TOLERANCE_PX	55	#Допуск цели \
+STEP_PX	60	#Шаг линий \
+MARGIN_PX	25	#Отступ от краёв \
 
 ## 🐛 Устранение проблем
 Проблема	-> Решение \
 Камера не работает -> Изменить CAMERA_INDEX = 1 \
 Робот не подключается	-> Проверить IP: ROBOT_ADDRESS = ("192.168.4.1", 8888) \
 Маркеры не видны -> Проверить освещение, контрастность \
-Arduino не отвечает	-> Проверить UART подключение \
+Arduino не отвечает	-> Проверить UART подключение 
 
 ## 📸 Скриншоты интерфейса
 <img src="docs/images/ui_main.jpg" alt="Интерфейс" width="600"/> <img src="docs/images/ui_path.jpg" alt="Маршрут" width="600"/>
