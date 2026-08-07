@@ -10,7 +10,7 @@
 <a href="docs/videos/demo.mp4">🎥 Видео</a>
 
 <img src="docs/images/setup.jpg" alt="Настройка" width="300"/>
-<img src="docs/images/process.jpg" alt="Процесс" width="300"/>
+<img src="docs/images/process.png" alt="Процесс" width="300"/>
 <img src="docs/images/result.jpg" alt="Результат" width="300"/>
 <img src="docs/images/demo.gif" alt="GIF" width="500"/>
 
